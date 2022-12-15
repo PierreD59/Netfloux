@@ -1,0 +1,16 @@
+@import "variables.css";
+
+.title
+{
+    font-family: var(--poppins);
+    font-size: 15px;
+}
+
+.bold
+{
+    font-weight: 700;
+}
+.normal
+{
+    font-weight: 400;
+}
