@@ -1,15 +1,8 @@
-h1 {
-  font-weight: bold;
-  color: #941b0c;
-  font-size: 20px;
-  font-family: "Poppins";
-  height: 30px;
-  margin-bottom: 10px;
-}
-
 .flow {
   display: flex;
   flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .Categorie {

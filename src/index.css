@@ -1,0 +1,15 @@
+p {
+  color: #661308;
+  font-size: 15px;
+  font-weight: mixed;
+  margin-top: 5px;
+  font-family: "Poppins";
+}
+h1 {
+  font-weight: bold;
+  color: #941b0c;
+  font-size: 20px;
+  font-family: "Poppins";
+  height: 30px;
+  margin-bottom: 10px;
+}
