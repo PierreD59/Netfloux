@@ -1,5 +1,12 @@
+import AfficherPage from "./pages/landingPage";
+
+
+
 function App() {
-  return <div className="App"></div>;
+  return <div className="App">
+    <AfficherPage/>
+    
+  </div>;
 }
 
 export default App;
