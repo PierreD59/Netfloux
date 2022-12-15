@@ -1,13 +1,13 @@
-import PresentationLandingPage from '../components/textlanding/text';
-import ImageLandingPage from '../components/image/image';
-import ButtonTryFree from '../components/button/button';
+import PresentationLandingPage from "../components/landingPage/textlanding/text";
+import ImageLandingPage from "../components/landingPage/image/image";
+import ButtonTryFree from "../components/landingPage/button/button";
 
-export default function AfficherPage(){
-    return (
-        <>
-            <PresentationLandingPage/>
-            <ImageLandingPage/>
-            <ButtonTryFree/>
-        </>
-    )
+export default function AfficherPage() {
+  return (
+    <>
+      <PresentationLandingPage />
+      <ImageLandingPage />
+      <ButtonTryFree />
+    </>
+  );
 }
