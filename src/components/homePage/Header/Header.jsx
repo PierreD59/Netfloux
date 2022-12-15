@@ -17,15 +17,19 @@ export default function Header() {
             <li>Youtube</li>
             <li>Demo JV</li>
           </ul>
-        </nav>
-        <div className="login&Search">
-          <div className="searchBar"></div>
-          <div className="login">
-            <span class="material-symbols-outlined">person</span>
-            <p className="loginName bold">Connexion</p>
+          <div className="login&Search">
+            <div className="searchBar">
+              <span class="material-symbols-outlined">search</span>
+            </div>
+            <div className="login">
+              <span class="material-symbols-outlined">person</span>
+              <p className="loginName bold">Connexion</p>
+            </div>
           </div>
+        </nav>
+        <div className="burger">
+          <span class="material-symbols-outlined">menu</span>
         </div>
-        <div className="burger"></div>
       </header>
     </Fragment>
   );
