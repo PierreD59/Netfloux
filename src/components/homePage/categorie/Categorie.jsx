@@ -1,4 +1,4 @@
-import Carte from "../../components/carte/Carte";
+import Carte from "../carte/Carte";
 import "./Categorie.css";
 export default function Categorie() {
   return (
