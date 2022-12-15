@@ -1,4 +1,13 @@
 import Categorie from "../components/homePage/categorie/Categorie";
 export default function HomePage() {
-  return <Categorie />;
+  return (
+    <>
+      <Categorie titre="Contenu qui pourrait vous plaire" />
+      <Categorie titre="Films pour vous" />
+      <Categorie titre="Séries pour vous" />
+      <Categorie titre="Musiques pour vous" />
+      <Categorie titre="Youtube pour vous" />
+      <Categorie titre="Démos de jeux vidéos disponibles" />
+    </>
+  );
 }

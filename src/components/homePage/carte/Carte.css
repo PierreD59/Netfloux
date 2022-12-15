@@ -1,12 +1,12 @@
 .carte img {
   width: 269px;
   height: 167.12px;
-  border-radius: 15%;
+  border-radius: 15px;
 }
 .carte {
   display: flex;
   flex-direction: column;
-  padding-right: 25px;
+  padding-right: 15px;
 }
 p {
   color: #661308;
