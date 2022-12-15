@@ -8,8 +8,8 @@ function App() {
     <>
       <div className="App">
         <Header />
-        {/* <HomePage /> */}
-        <AfficherPage />
+        <HomePage />
+        {/*  <AfficherPage />*/}
       </div>
     </>
   );
