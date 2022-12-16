@@ -1,0 +1,12 @@
+.tag {
+  background-color: #941b0c;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.tag p {
+  color: #f6aa1c;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+}
