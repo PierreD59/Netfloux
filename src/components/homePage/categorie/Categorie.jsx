@@ -10,7 +10,10 @@ export default function Categorie(props) {
   return (
     <>
       <div className="Categorie">
-        <h2>{props.titre}</h2>
+        <div className="titre">
+          <h2 className="bold">{props.titre}</h2>
+          <h4> Voir plus </h4>
+        </div>
         <div className="flow">
           <Carte
             lienImage="https://media.istockphoto.com/id/1191001701/fr/photo/pop-corn-et-clapperboard.jpg?s=612x612&w=0&k=20&c=AHQ7hOMdCMRfAya18h3rznNEflqmFS3Q90UznAbNfzM="

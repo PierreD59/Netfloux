@@ -1,8 +1,8 @@
 import Header from "./components/homePage/Header/Header";
 // import HeaderLanding from "./components/landingPage/HeaderLanding/HeaderLanding.jsx";
-// import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage";
 import "./App.css";
-import LandingPage from "./pages/LandingPage";
+// import LandingPage from "./pages/LandingPage";
 
 export default function App() {
   return (
@@ -10,8 +10,8 @@ export default function App() {
       <div className="App">
         {/* <HeaderLanding /> */}
         <Header />
-        {/* <HomePage /> */}
-        <LandingPage />
+        <HomePage />
+        {/* <LandingPage /> */}
       </div>
     </>
   );
