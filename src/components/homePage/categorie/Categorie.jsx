@@ -1,5 +1,11 @@
 import Carte from "../carte/Carte";
 import "./Categorie.css";
+
+/**
+ * Possède un titre de catégorie, des cartes avec leurs propriétés.
+ * @param {*} props le titre de la catégorie
+ * @returns la div Catégorie qui contient tout
+ */
 export default function Categorie(props) {
   return (
     <>
@@ -38,7 +44,8 @@ export default function Categorie(props) {
             titre="Tirage carte pokemon "
             auteur="Kakaméto "
             jeu="Pokemon trading card game"
-            tag="Pokemon"
+            tag1="Pokémon"
+            tag2="Français"
           />
         </div>
       </div>

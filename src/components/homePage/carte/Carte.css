@@ -27,3 +27,8 @@
   font-family: "Poppins";
   font-weight: bold;
 }
+
+.tags {
+  display: flex;
+  flex-direction: row;
+}

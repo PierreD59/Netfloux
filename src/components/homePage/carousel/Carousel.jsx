@@ -1,6 +1,10 @@
 import { Carousel } from "react-carousel-minimal";
 import "./Carousel.css";
 
+/**
+ * Composant permettant de créer un carousel
+ * @returns carousel
+ */
 function App() {
   const data = [
     {

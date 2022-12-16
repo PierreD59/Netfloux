@@ -31,7 +31,10 @@ export default function Carte(props) {
         {props.dateSorti !== "" ? props.dateSorti : ""}
       </p>
       <p>{props.jeu !== "" ? props.jeu : ""}</p>
-      {props.tag !== "" ? <Tag text={props.tag} /> : ""}
+      <div className="tags">
+        {props.tag1 !== "" ? <Tag text={props.tag1} /> : ""}
+        {props.tag2 !== "" ? <Tag text={props.tag2} /> : ""}
+      </div>
     </div>
   );
 }

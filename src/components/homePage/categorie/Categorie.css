@@ -13,6 +13,10 @@
   overflow-y: hidden;
 }
 
+.flow::-webkit-scrollbar {
+  display: none;
+}
+
 .Categorie {
   padding-left: 20px;
   padding-bottom: 20px;
