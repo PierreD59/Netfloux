@@ -1,17 +1,29 @@
-.carte img {
-  width: 269px;
-  height: 167.12px;
-  border-radius: 15px;
-}
 .carte {
   display: flex;
   flex-direction: column;
   padding-right: 15px;
 }
-p {
+
+.carte img {
+  width: 491px;
+  height: 306px;
+  border-radius: 15px;
+}
+
+.carte > p {
   color: #661308;
-  font-size: 15px;
-  font-weight: mixed;
+  font-size: 18px;
   margin-top: 5px;
   font-family: "Poppins";
+}
+.carte p span {
+  font-weight: bold;
+}
+
+.carte h3 {
+  color: #661308;
+  font-size: 21px;
+  margin-top: 5px;
+  font-family: "Poppins";
+  font-weight: bold;
 }

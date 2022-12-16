@@ -1,9 +1,8 @@
-.Categorie h1 {
+.Categorie h2 {
   font-weight: bold;
-  color: #941b0c;
-  font-size: 20px;
+  color: #661308;
+  font-size: 24px;
   font-family: "Poppins";
-  height: 30px;
   margin-bottom: 10px;
 }
 
