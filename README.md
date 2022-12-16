@@ -40,3 +40,7 @@ Une page devra mettre en avant les contenus tendance/à la mode ou les plus rega
 - cloner le projet
 - installer les dépendances avec `npm install`
 - Lancer le serveur avec `npm start`
+
+## liens
+
+[carousel](https://reactjsexample.com/easy-to-use-responsive-and-customizable-carousel-component-for-react/)
