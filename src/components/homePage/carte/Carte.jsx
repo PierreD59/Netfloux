@@ -2,7 +2,7 @@ import Tag from "../tag/Tag";
 import "./Carte.css";
 
 /**
- *
+ * affiche les informations pour les cartes en fonctions des props recu.
  * @param {*} props
  * @param {string} titre
  * @param {string} type
@@ -13,7 +13,7 @@ import "./Carte.css";
  * @param {string} dateSorti
  * @param {string} jeu
  * @param {string} tag
- * @returns
+ * @returns la carte détaillé
  */
 export default function Carte(props) {
   return (
