@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         {/* <HeaderLanding /> */}
         <Header />
-        {/* <HomePage /> */}
+        <HomePage />
         {/* <AfficherPage /> */}
       </div>
     </>
