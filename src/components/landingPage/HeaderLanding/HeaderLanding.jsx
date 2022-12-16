@@ -7,7 +7,7 @@ export default function HeaderLanding() {
       {" "}
       <header>
         <div className="logo">
-          <Link to={"/landing"}><img src="img/logo.svg" alt="logo du site internet" /></Link>
+          <Link to={"/"}><img src="img/logo.svg" alt="logo du site internet" /></Link>
         </div>
           <div className="login">
             <span class="material-symbols-outlined bold">person</span>

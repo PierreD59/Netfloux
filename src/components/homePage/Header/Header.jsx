@@ -7,11 +7,11 @@ export default function Header() {
       {" "}
       <header>
         <div className="logo">
-          <Link to={"/"}><img src="img/logo.svg" alt="logo du site internet" /></Link>
+          <Link to={"/home"}><img src="img/logo.svg" alt="logo du site internet" /></Link>
         </div>
         <nav className="menuHeader">
           <ul className="listMenuHeader title bold">
-            <li><Link to={'/'}>Accueil</Link></li>
+            <li><Link to={'/home'}>Accueil</Link></li>
             <li>Films</li>
             <li>Séries</li>
             <li>Musiques</li>

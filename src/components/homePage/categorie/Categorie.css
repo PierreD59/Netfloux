@@ -1,9 +1,20 @@
 .Categorie h2 {
-  font-weight: bold;
-  color: #661308;
+  color: var(--brown);
   font-size: 24px;
   font-family: "Poppins";
   margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.Categorie h4 {
+  color: var(--yellow);
+  font-size: 21px;
+  font-family: "Poppins";
+}
+
+.titre {
+  display: flex;
+  flex-direction: row;
 }
 
 .flow {

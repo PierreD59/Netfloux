@@ -3,6 +3,7 @@ import ImageLandingPage from "../components/landingPage/image/image";
 import ButtonTryFree from "../components/landingPage/button/button";
 import HeaderLanding from "../components/landingPage/HeaderLanding/HeaderLanding.jsx";
 import "./LandingPage.css";
+import { Link } from "react-router-dom";
 
 export default function LandingPage() {
   return (
@@ -11,7 +12,7 @@ export default function LandingPage() {
       <div className="landingPage">
         <div className="gauche">
           <PresentationLandingPage />
-          <ButtonTryFree />
+          <Link to={'/home'}><ButtonTryFree /></Link>
         </div>
         <ImageLandingPage />
       </div>
