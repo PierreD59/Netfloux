@@ -1,3 +1,4 @@
+import "./image.css";
 export default function ImageLandingPage() {
   return (
     <div className="ImageLandingPage">
