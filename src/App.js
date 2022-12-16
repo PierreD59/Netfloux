@@ -1,20 +1,18 @@
-import AfficherPage from "./pages/landingPage";
-import HeaderLanding from "./components/landingPage/HeaderLanding/HeaderLanding.jsx";
 import Header from "./components/homePage/Header/Header";
+// import HeaderLanding from "./components/landingPage/HeaderLanding/HeaderLanding.jsx";
+// import HomePage from "./pages/HomePage";
 import "./App.css";
-import HomePage from "./pages/HomePage";
+import LandingPage from "./pages/LandingPage";
 
-function App() {
+export default function App() {
   return (
     <>
       <div className="App">
         {/* <HeaderLanding /> */}
         <Header />
-        <HomePage />
-        {/* <AfficherPage /> */}
+        {/* <HomePage /> */}
+        <LandingPage />
       </div>
     </>
   );
 }
-
-export default App;
