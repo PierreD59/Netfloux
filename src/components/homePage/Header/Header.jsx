@@ -9,23 +9,33 @@ export default function Header() {
           <img src="img/logo.svg" alt="logo du site internet" />
         </div>
         <nav className="menuHeader">
-          <ul className="listMenuHeader">
+          <ul className="listMenuHeader title bold">
             <li>Accueil</li>
             <li>Films</li>
             <li>Séries</li>
             <li>Musiques</li>
-            <li>Youtube</li>
+            <li className="dropdown">Youtube ▼ 
+              <ul className="dropdownMenu">
+                <li className="dropdownMenuList">Vulgarisation</li>
+                <li className="dropdownMenuList">Gaming</li>
+                <li className="dropdownMenuList">Divertissement</li>
+              </ul>
+            </li>
             <li>Demo JV</li>
           </ul>
         </nav>
-        <div className="login&Search">
-          <div className="searchBar"></div>
-          <div className="login">
-            <span class="material-symbols-outlined">person</span>
-            <p className="loginName bold">Connexion</p>
+          <div className="loginSearch">
+            <div className="searchBar">
+              <span className="material-symbols-outlined bold">search</span>
+            </div>
+            <div className="login">
+              <span className="material-symbols-outlined bold">person</span>
+              <p className="loginName title bold">Connexion</p>
+            </div>
           </div>
+        <div className="burger">
+          <span className="material-symbols-outlined">menu</span>
         </div>
-        <div className="burger"></div>
       </header>
     </Fragment>
   );
