@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -6,11 +7,11 @@ export default function Header() {
       {" "}
       <header>
         <div className="logo">
-          <img src="img/logo.svg" alt="logo du site internet" />
+          <Link to={"/"}><img src="img/logo.svg" alt="logo du site internet" /></Link>
         </div>
         <nav className="menuHeader">
           <ul className="listMenuHeader title bold">
-            <li>Accueil</li>
+            <li><Link to={'/'}>Accueil</Link></li>
             <li>Films</li>
             <li>Séries</li>
             <li>Musiques</li>

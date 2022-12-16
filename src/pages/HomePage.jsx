@@ -1,9 +1,12 @@
 import Categorie from "../components/homePage/categorie/Categorie";
 import MyApp from "../components/homePage/carousel/Carousel";
 import Pub from "../components/homePage/pub/Pub";
+import Header from "../components/homePage/Header/Header";
+
 export default function HomePage() {
   return (
     <>
+      <Header/>
       <MyApp />
       <Categorie titre="Contenu qui pourrait vous plaire" />
       <Pub/>

@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 export default function HeaderLanding() {
   return (
@@ -6,7 +7,7 @@ export default function HeaderLanding() {
       {" "}
       <header>
         <div className="logo">
-          <img src="img/logo.svg" alt="logo du site internet" />
+          <Link to={"/landing"}><img src="img/logo.svg" alt="logo du site internet" /></Link>
         </div>
           <div className="login">
             <span class="material-symbols-outlined bold">person</span>
