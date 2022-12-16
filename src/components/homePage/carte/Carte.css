@@ -3,9 +3,6 @@
   flex-direction: column;
   padding-right: 15px;
 }
-<<<<<<< HEAD
-.carte p {
-=======
 
 .carte img {
   width: 491px;
@@ -14,7 +11,6 @@
 }
 
 .carte > p {
->>>>>>> 7b1be5d90ed620a17a1331e31ccc5d1cfd0e0f71
   color: #661308;
   font-size: 18px;
   margin-top: 5px;
