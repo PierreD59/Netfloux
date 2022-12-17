@@ -31,6 +31,21 @@ des contenus qui correspondent à leurs gouts. Le taux de correspondance sera pr
 
 Une page devra mettre en avant les contenus tendance/à la mode ou les plus regardés.
 
+### Descriptif complémentaire
+
+Projet sur une période de 1 semaine.
+travail effectué :
+- Wireframe (Figma) 
+- Maquettage (Figma) 
+- prototypage (Figma) 
+- implémentation graphique (react)
+
+## Membres
+
+- PierreD59
+- Gerob59 - Robin Hotton
+- PeterB
+
 ## Prérequis
 
 - [node.js](https://nodejs.org/en/)
@@ -41,6 +56,6 @@ Une page devra mettre en avant les contenus tendance/à la mode ou les plus rega
 - installer les dépendances avec `npm install`
 - Lancer le serveur avec `npm start`
 
-## liens
+## sources utilisés
 
 [carousel](https://reactjsexample.com/easy-to-use-responsive-and-customizable-carousel-component-for-react/)
